@@ -87,8 +87,19 @@ body{
 
 .container{
 	width: 960px;
-	margin: auto;
+	margin: 80px auto;
 	background-color: khaki;
+	position: relative;
+}
+
+.github{
+	width: 200px;
+	height: 200px;
+	background-image: url(img/githubribbon.png);
+	display: inline-block;
+	color: transparent;
+	position: absolute;
+	right: 0px;
 }
 
 .header {
